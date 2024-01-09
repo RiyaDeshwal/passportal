@@ -2,7 +2,7 @@ body{
     background-color: #1e1e1e;
     padding:0;
     margin: 0;
-    font-family: Freigeist-conblack;
+   
 }
 .navbar{
 width:100%;
@@ -307,7 +307,175 @@ background-position: right;}
 background-repeat: no-repeat;
 background-size: 3vh; 
 background-position: right;}
+@media(min-width:650px){
+    .mobile-footer{
+        display: none;
+    }
+
+}
+@media( max-width:850px){
+   
+   
+    .ribbon-case{
+        background-size: 45vh,45vh,4vh,4vh;
+    }
+   .footer-alcher{
+    font-size: 7vh;
+   }
+   .welcometxt{
+    background-size: 3vh;
+    background-position: 82% 4%;
+   }
+   #buypasses{
+    font-size: 1.2vh;
+   }
+}
+
+@media (max-width:650px){
     
+    .footer{
+        display: none;
+    }
+
+}
+@media (max-width:650px){ 
+    .footer-iit{
+       
+    margin-top: 7%;
+    font-weight: 600;
+    font-size: 2.2vw;
+}
+.footer-alcher{
+    font-size: 5vw;
+    padding-bottom: 3vh;
+}
+.name{
+    font-size: 2vw;
+    margin-bottom: 1.5vh;
+}
+.phone{
+    font-size: 2vw;
+}
+.email{
+    font-size: 2vw;
+}
+.mobile-footer{
+background-image: url("footer-background.svg");
+height:auto;
+background-size: cover;
+background-color: #1e1e1e;
+background-repeat: no-repeat;
+}
+.ribbon-case{
+    
+    background-repeat: no-repeat;
+    background-size: 35vh,35vh,3vh,4vh;
+    background-position: left top , right top, 19% 59% , 70% 32%;
+
+}
+.welcometxt{
+    font-size: 2vh;
+    margin-bottom: 0;
+    background-size: 3vh;
+background-position: 70% ;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+
+
+#buypasses{
+    margin-left: 33vw;
+    font-size: 1.2vh;
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.detailbox{
+    margin-left: 3vw;
+}
+#name{
+    width: 50vw;
+margin-left: 3vw;
+}
+#gender{
+    width: 40vw;
+    margin-left: 3vw;
+}
+#age{
+    margin-left: 3vw;
+    width: 30vw;
+}
+#email{
+    margin-left: 3vw;
+    width: 50vw;
+    height: 5vh;
+    margin-top: 0;
+}
+#number{
+    margin-left: 3vw;
+    width: 50vw;
+    height: 5vh;
+    margin-top: 0;
+}
+#idtype{
+    margin-left: 3vw;
+    width: 50vw;
+    height: 5vh;
+    margin-top: 0;
+}
+#idnum{
+    margin-left: 3vw;
+    width: 50vw;
+    height: 5vh;
+    margin-top: 0;
+}
+#attendee{
+    font-size: 3vh;
+}
+h3{
+    font-size: 2vh;
+}
+.passtype{
+    margin-top: 2vh;
+    font-size: 1vh;
+    height: 2vh;
+}
+.info{
+    margin-top: 2vh;
+}
+#heading2{
+    font-size: 5vh;
+}
+#introtext{
+    font-size: 2vh;
+}
+.navbar{
+    font-size: 1vh;
+}
+#alcherlogo1{
+    height: 5vh;
+}
+}
 
 
 
